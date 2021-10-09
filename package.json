@@ -1,6 +1,6 @@
 {
   "name": "react-modal-image",
-  "version": "2.5.0",
+  "version": "3.0.0",
   "description": "Lightweight Lightbox React Component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -18,7 +18,8 @@
     "start:static": "http-server demo/dist/ -s -p 8888",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run --browser chrome",
-    "test": "start-server-and-test start:static http://localhost:8888 cypress:run"
+    "test": "start-server-and-test start:static http://localhost:8888 cypress:run",
+    "prepare": "yarn build"
   },
   "peerDependencies": {
     "react": "17.x"
